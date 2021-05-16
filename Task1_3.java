@@ -23,7 +23,7 @@ public class Task1_3 {
             minus=20 - 7;
 
         // ③下記の処理について、何をしているのかコメントを記入してください。
-        // [ここへ記述]10と2を乗算した値をint変数[multiply]に代入している。
+        // [ここへ記述]10と2を乗算した値をint型の変数[multiply]に代入している。
         int multiply=10 * 2;
 
         // ④ 20 を 6 で割った余りを代入する、変数 remi を作成しなさい。
@@ -31,12 +31,12 @@ public class Task1_3 {
             remi=20 % 6;
 
         // ⑤下記の処理について、何をしているのかコメントを記入してください
-        // [ここへ記述]String変数[town]に"有楽町"[line]に"線"をそれぞれ代入している。
+        // [ここへ記述]String型の変数[town]に"有楽町"[line]に"線"をそれぞれ代入している。
         String town = "有楽町";
         String line = "線";
 
         // ⑥ ⑤で作成cdした変数を連結させた値を代入する変数 train を作成しなさい。
-        String train = (town + line);
+        String train = town + line;
         
 
         // ⑦ 変数plus, minus, multiply, remi, train をそれぞれ出力しなさい。
