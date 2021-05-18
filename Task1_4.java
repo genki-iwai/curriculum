@@ -52,8 +52,7 @@ public class Task1_4 {
        //     定数を使用して「 パスワードに誤りがあります。 」 と出力してください。
         }else if(name.equals(USER_NAME)){
            System.out.println(USER_NAME);
-        }else if(!(pass.equals(USER_PASSWORD))){
-            System.out.println(CONST_MSG_ERROR_PASS);
+        
         
         
 
@@ -65,8 +64,7 @@ public class Task1_4 {
        //定数を使用して「 名前に誤りがあります。 」と出力してください。
        }else if(pass.equals(USER_PASSWORD)){
            System.out.println(USER_PASSWORD);
-        }else if(!(name.equals(USER_NAME))){
-           System.out.println(CONST_MSG_ERROR_NAME);
+        
        
     
 
