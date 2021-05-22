@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="コンパイル単位名 &apos;study.study.java&apos; を &apos;Study.java&apos; に変更&#x0A;- 元のプロジェクト: &apos;2-4&apos;&#x0A;- オリジナル要素: &apos;study.study.java&apos;&#x0A;- 名前変更済み要素: &apos;study.Study.java&apos;" description="コンパイル単位名 &apos;study.java&apos; を変更します" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;study{study.java" name="Study.java" references="false" stamp="1621644449410" version="1.0"/>
+</session>
