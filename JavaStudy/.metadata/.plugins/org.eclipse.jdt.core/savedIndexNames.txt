@@ -12,7 +12,6 @@ INDEX VERSION 1.130+/Users/g-iwai/LetsEngineer/curriculum/JavaStudy/.metadata/.p
 2003086080.index
 1940685342.index
 3442673137.index
-292200188.index
 4284809168.index
 2364187176.index
 1239847097.index
