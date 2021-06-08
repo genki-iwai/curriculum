@@ -1,0 +1,12 @@
+package check;
+
+import constants.Constants;
+
+public class Check extends Constants{
+
+	public static void main(String[] args) {
+
+
+	}
+
+}

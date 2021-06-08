@@ -1,0 +1,15 @@
+package check;
+
+public class Check {
+
+	public static void main(String[] args) {
+
+		private String firstName = "岩井";
+		private String lastName = "彦樹";
+
+		 public void printName(){
+			System.out.println(firstName + lastName);
+		}
+	}
+
+}
