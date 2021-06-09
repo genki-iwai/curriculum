@@ -12,14 +12,14 @@ public class Check extends Constants{
 		Check.lastName = lastName;
 	}
 	public void printName(String firstName, String lastName){
-		System.out.println("printNameメソッド → " + firstName + lastName);
+		System.out.println(firstName + lastName);
 	}
 
 
 	public static void  main(String[] args) {
 
 		Check check = new Check(firstName, lastName);
-		check.printName(firstName, lastName);
+		check.printName(firstName, firstName);
 
 		Pet pet = new Pet(CHECK_CLASS_JAVA, CHECK_CLASS_HOGE);
 		pet.introduce();

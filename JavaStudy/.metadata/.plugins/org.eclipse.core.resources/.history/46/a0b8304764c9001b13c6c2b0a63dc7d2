@@ -19,7 +19,7 @@ public class Check extends Constants{
 	public static void  main(String[] args) {
 
 		Check check = new Check(firstName, lastName);
-		check.printName(firstName, lastName);
+		check.printName(firstName, firstName);
 
 		Pet pet = new Pet(CHECK_CLASS_JAVA, CHECK_CLASS_HOGE);
 		pet.introduce();
