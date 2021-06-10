@@ -7,13 +7,11 @@ public class Check extends Constants{
 	private  static String firstName = "岩井";
 	private  static String lastName = "彦樹";
 
-	public static void printName(String firstName,String lastName){
-		System.out.println(firstName + lastName);
-	}
-
 	public static void  main(String[] args) {
 
-		System.out.println(printName());
+		public static void printName(String firstName,String lastName){
+			System.out.println();
+		}
 
 		Pet pet = new Pet(CHECK_CLASS_JAVA, CHECK_CLASS_HOGE);
 		pet.introduce();
