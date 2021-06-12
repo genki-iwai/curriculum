@@ -7,8 +7,8 @@ public class Check extends Constants{
 	private  static String firstName = "岩井";
 	private  static String lastName = "彦樹";
 
-	private static void printName(String firstName,String lastName){
-		System.out.println("printNameメソッド→" + firstName + lastName);
+	public static void printName(String firstName,String lastName){
+		System.out.println(firstName + lastName);
 	}
 
 	public static void  main(String[] args) {
