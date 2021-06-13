@@ -6,7 +6,23 @@
 }
 .right {
     width: 100px;
+    float: left;
 }
 .footer {
     width: 250px;
+}
+@media screen and(max-width: 479px) {
+    
+}
+.header {
+    width: 150px;
+}
+.right {
+    width: 150px;
+}
+.footer {
+    width: 150px;
+}
+.wrapper {
+    overflow: hidden;
 }
