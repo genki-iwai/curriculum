@@ -25,6 +25,12 @@ body {
     height: 250px;
     background-color: #80dfa8;
 }
+.right {
+    float: right;
+    width: 100px;
+    height: 150px;
+    background-color: #ff9e6b;
+}
 .center-upper {
     float: left;
     width: 150px;
@@ -43,13 +49,6 @@ body {
     height: 100px;
     background-color: #8c2727;
 }
-.right {
-    float: left;
-    width: 100px;
-    height: 150px;
-    background-color: #ff9e6b;
-}
-
 .footer {
     width: 400px;
     height: 100px;
