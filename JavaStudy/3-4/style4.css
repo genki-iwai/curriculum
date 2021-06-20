@@ -2,6 +2,16 @@ body {
     width: 350px;
     height: 350px;
 }
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.wrapper {
+    width: 350px;
+    height: 350px;
+    margin: 0 auto;
+}
 .header-left {
     width: 150px;
     height: 100px;
@@ -49,4 +59,8 @@ body {
     height: 100px;
     float: right;
     background-color: #330066;
+}
+* {
+    margin: 0;
+    padding: 0;
 }

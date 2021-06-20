@@ -1,0 +1,58 @@
+body {
+    width: 600px;
+    height: 600px;
+}
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.wrapper {
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+}
+.header {
+    width: 600px;
+    height: 150px;
+    background-color: #FFFF00;
+}
+.left {
+    width: 200px;
+    height: 150px;
+    float: left;
+    background-color: #33FFFF;
+}
+.center {
+    width: 200px;
+    height: 150px;
+    float: left;
+    background-color: #FF0000;
+}
+.right {
+    width: 200px;
+    height: 150px;
+    float: left;
+    background-color: #0000FF;
+}
+.left2 {
+    width: 500px;
+    height: 150px;
+    float: left;
+    background-color: #00FF00;
+}
+.right2 {
+    width: 100px;
+    height: 150px;
+    float: right;
+    background-color: #FF00FF;
+}
+.footer {
+    width: 600px;
+    height: 150px;
+    background-color: #33FFFF;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
