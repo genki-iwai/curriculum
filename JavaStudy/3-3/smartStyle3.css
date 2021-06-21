@@ -12,13 +12,23 @@
     }
     .header {
         width: 200px;
-        height: 200px;
+        height: 180px;
+        padding-top: 20px;
     }
     .header-box {
-        margin-left: 70px;
-        margin-right: 70px;
+        width: 60px;
+        height: 160px;
         float: none;
         margin: 0 auto;
+    }
+    .box1 {
+        margin: 10px 10px 5px 10px;
+    }
+    .box2 {
+        margin: 5px 10px 5px 10px;
+    }
+    .box3 {
+        margin: 5px 10px 5px 10px;
     }
     .left {
         width: 200px;
@@ -32,7 +42,7 @@
         float: none;
     }
     .right-box1 {
-        margin: 0 30px 10px 30px
+        margin: 0 30px 10px 30px;
     }
     .right-box2 {
         margin: 0 30px 10px 30px ;
