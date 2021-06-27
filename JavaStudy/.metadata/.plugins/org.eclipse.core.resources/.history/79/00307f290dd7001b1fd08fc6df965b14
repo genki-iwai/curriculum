@@ -1,0 +1,22 @@
+package study;
+
+import java.util.Properties;
+
+public class ResourceMainEncoding {
+
+		static properties loadUtf8properties(String resourceName) throws IOException{
+			try (InputStream is = ResourceMainEncoding.class.getResourceAsStream(resourceName);
+					InputStreamReader isr = new InputStreamReader(is, "UTF-8");
+					BufferedReader reader = new BufferedReader(isr)){
+
+				Properties result new properties();
+				result.load(reader);
+
+				retune result;
+			}
+		}
+		public static void main(String[] args) {
+
+	}
+
+}
