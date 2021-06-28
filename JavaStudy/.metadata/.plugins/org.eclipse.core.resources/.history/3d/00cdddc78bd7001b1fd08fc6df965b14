@@ -1,0 +1,23 @@
+package interfaces;
+
+public class Nanami implements OrderFromMotoki {
+
+	@Override
+	public void daseyaKinmuhyo() {
+		// TODO 自動生成されたメソッド・スタブ
+
+	}
+
+	@Override
+	public void daseyaKotsuhi() {
+		// TODO 自動生成されたメソッド・スタブ
+
+	}
+
+	@Override
+	public void goToSevenEleven() {
+		// TODO 自動生成されたメソッド・スタブ
+
+	}
+
+}

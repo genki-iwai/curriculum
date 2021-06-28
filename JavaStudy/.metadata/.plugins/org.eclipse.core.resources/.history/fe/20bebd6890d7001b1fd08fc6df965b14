@@ -1,0 +1,14 @@
+package interfaces;
+
+public class NanamiMain {
+
+	public static void main(String[] args) {
+		//3.実現(1,2を使ってみる)
+		Nanami Nanami = new Nanami("七海" , "2021/06");
+		Nanami.daseyaKinmuhyo();
+		Nanami.daseyaKotsuhi();
+		Nanami.doNothing();
+		Nanami.goToSevenEleven();
+	}
+
+}
