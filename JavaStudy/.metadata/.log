@@ -11488,3 +11488,26 @@ java.lang.NullPointerException
 
 !ENTRY mergedoc.encoding 2 0 2021-06-29 06:03:24.288
 !MESSAGE リソース '/polymorphism/src/abstracts/Tarinee.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2021-06-29 06:37:27.723
+!MESSAGE リソース '/polymorphism/src/abstracts/polymoSuper.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2021-06-29 06:37:27.728
+!MESSAGE リソース '/polymorphism/src/abstracts/polymoSuper.java' が存在しません。
+
+!ENTRY org.eclipse.jface.text 2 0 2021-06-29 06:41:07.074
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:60)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:602)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:113)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY mergedoc.encoding 2 0 2021-06-29 06:52:07.738
+!MESSAGE リソース '/polymorphism/src/abstracts/polymoSuper.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2021-06-29 06:52:07.741
+!MESSAGE リソース '/polymorphism/src/abstracts/polymoSuper.java' が存在しません。

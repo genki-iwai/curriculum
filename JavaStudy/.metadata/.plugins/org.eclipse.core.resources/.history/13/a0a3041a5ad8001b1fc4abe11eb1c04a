@@ -1,0 +1,13 @@
+package abstracts;
+
+public abstract class polymoSuper {
+
+	protected void call() {
+		//2-2の要件を満たす処理
+		System.out.println(this.getClass());
+	}
+}
+
+public class polymoSub1 extends polymoSuper {
+
+}
