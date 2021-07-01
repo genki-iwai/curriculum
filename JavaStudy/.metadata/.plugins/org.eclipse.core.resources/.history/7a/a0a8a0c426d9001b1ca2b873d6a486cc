@@ -1,0 +1,14 @@
+package polymorphism2;
+
+public class Night extends EnemyOfAbility{
+
+	public Night(String attackName){
+		super.attackName = attackName;
+	}
+
+	@Override
+	protected void useAbility() {
+		System.out.println(super.attackName);
+	}
+
+}

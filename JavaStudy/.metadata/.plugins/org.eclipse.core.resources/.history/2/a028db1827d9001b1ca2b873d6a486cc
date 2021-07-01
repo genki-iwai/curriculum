@@ -1,0 +1,13 @@
+package polymorphism2;
+
+public class arrow extends EnemyOfAbility{
+	public arrow(String attackName){
+		super.attackName = attackName;
+	}
+
+	@Override
+	protected void useAbility() {
+		System.out.println("弓矢兵の吸収攻撃" + super.attackName);
+	}
+
+}
