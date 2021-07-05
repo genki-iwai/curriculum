@@ -1,5 +1,0 @@
-driver = org.postgresql.Driver
-connection = jdbc=postgresql=//localhost=5434/lesson_db?useUnicode=true&characterEncoding=utf8
-useId = postgres
-pass = postgres
-name = "gennki"

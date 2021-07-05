@@ -1,9 +1,0 @@
-package study;
-
-public class ResourceMainEncoding {
-
-	public static void main(String[] args) {
-
-	}
-
-}
