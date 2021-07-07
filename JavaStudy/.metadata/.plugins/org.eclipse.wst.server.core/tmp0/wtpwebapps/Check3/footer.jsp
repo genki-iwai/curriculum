@@ -10,6 +10,5 @@
 	<div class="footer">
 		<label class="footer-1">hoge.Inc</label>
 	</div>
-
 </body>
 </html>

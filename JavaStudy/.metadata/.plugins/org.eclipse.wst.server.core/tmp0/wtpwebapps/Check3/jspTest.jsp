@@ -8,19 +8,17 @@
 <title>Insert title here</title>
 </head>
 <body>
-<div class="wrapper">
 <%@ include file="header.jsp" %>
 	<div class="main">
 		<table>
 			<tr>
-				<th>name <input type = "text"></th>
+				<td>name <input type = "text"></td>
 			</tr>
 			<tr>
 				<th>id <input type = "text"></th>
 			</tr>
 		</table>
 	</div>
-</div>
 <%@ include file="footer.jsp" %>
 </body>
 </html>
