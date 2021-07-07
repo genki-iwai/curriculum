@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<link rel="stylesheet" href="style.css">
+<link rel="styleSheet" href="css/style.css">
 <title>Insert title here</title>
 </head>
 <body>
@@ -12,12 +12,13 @@
 	<div class="main">
 		<table>
 			<tr>
-				<th>name <input type = "text"></th>
+				<td>name <input type = "text"></td>
 			</tr>
 			<tr>
 				<th>id <input type = "text"></th>
 			</tr>
 		</table>
 	</div>
+<%@ include file="footer.jsp" %>
 </body>
 </html>

@@ -12,10 +12,12 @@
 	<div class="main">
 		<table>
 			<tr>
-				<td>name <input type = "text"></td>
+				<td>name</td>
+				<th> <input type = "text"> </th>
 			</tr>
 			<tr>
-				<th>id <input type = "text"></th>
+				<td>id</td>
+				<th> <input type = "text"> </th>
 			</tr>
 		</table>
 	</div>
