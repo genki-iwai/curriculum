@@ -12,11 +12,11 @@
 	<div class="main">
 		<table>
 			<tr>
-				<td>name</td>
+				<td style="text-align:center">name</td>
 				<th> <input type = "text"> </th>
 			</tr>
 			<tr>
-				<td>id</td>
+				<td style="text-align:center;">id</td>
 				<th> <input type = "text"> </th>
 			</tr>
 		</table>
