@@ -1,9 +1,0 @@
-package helloPackage;
-
-public class HelloServlet extends HttpServlet{
-	public void doGet(HttpServletRequest request, HttpServletResponse response)
-		throws IOException, ServletException {
-
-	}
-
-}
