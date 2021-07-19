@@ -1,5 +1,0 @@
-package selectpackage;
-
-public class SelectServlet extends HttpServlet {
-
-}
