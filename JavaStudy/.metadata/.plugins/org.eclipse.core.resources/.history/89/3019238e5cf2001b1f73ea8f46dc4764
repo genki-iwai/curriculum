@@ -17,7 +17,7 @@ public class Example5_1 {
 		ResultSet resultSet = null;
 
 		try{
-			Class.forName(POSTGRES_DRIVER);
+			Class.forName(JDBC_CONNECTION);
 			connection = DriverManager.getConnection(JDBC_CONNECTION,USER,PASS);
 
 			statement = connection.createStatement();

@@ -5,7 +5,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 public class Example5_1 {
-	private static final String POSTGRES_DRIVER = "org.postgresql.Driver";
+	private static final String POSTGRES_DRIVER = "org.postgres.Driver";
 	private static final String JDBC_CONNECTION = "jdbc:postgresql://localhost:5432/lesson_db";
 	private static final String USER = "postgres";
 	private static final String PASS = "postgres";
@@ -24,7 +24,7 @@ public class Example5_1 {
 			String SQL = "SELECT * FROM Goods";
 			resultSet = statement.executeQuery(SQL);
 
-			while(resultSet.next()) {
+			while (resultSet.next()) {
 				String column1 = resultSet.getString("GoodsName");
 				String column2 = resultSet.getString("UnitPrice");
 				String column3 = resultSet.getString("UpdateDate");
@@ -34,17 +34,17 @@ public class Example5_1 {
 				System.out.println(column3);
 
 			}
-		} catch (ClassNotFoundException e) {
+
+		}catch (ClassNotFoundException e) {
 			e.printStackTrace();
 
-		} catch (SQLException e) {
+		}catch (SQLException e) {
 			e.printStackTrace();
 
-		} finally {
-			try {
+		}finally {
+			try{
 				if (resultSet != null) {
 					resultSet.close();
-
 				}
 				if (statement != null) {
 					statement.close();
@@ -52,11 +52,11 @@ public class Example5_1 {
 				if (connection != null) {
 					connection.close();
 				}
-
 			}catch (SQLException e) {
 				e.printStackTrace();
 			}
 		}
 
 	}
+
 }

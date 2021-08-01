@@ -1,0 +1,26 @@
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.Statement;
+
+public class Example5_1 {
+	private static final String POSTGRES_DRIVER = "org.postgresql.Driver";
+	private static final String JDBC_CONNECTION = "jdbc:postgresql://localhost:5432/lesson_db";
+	private static final String USER = "postgres";
+	private static final String PASS = "postgres";
+
+	public static void main(String[] args) {
+
+		Connection connection = null;
+		Statement statement = null;
+		ResultSte resultSet = null;
+
+		try{
+			Class.forName(JDBC_CONNECTION);
+			connection = DriverManager.getConnection(JDBC_CONNECTION,USER,PASS);
+
+			statement = connection.createStatement();
+			String SQL = "SELECT * FROM Goods";
+			resultSet = statement.executeQuery(SQL);
+		}
+	}
+}

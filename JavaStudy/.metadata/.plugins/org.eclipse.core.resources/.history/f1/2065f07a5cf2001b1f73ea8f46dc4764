@@ -17,7 +17,7 @@ public class Example5_1 {
 		ResultSet resultSet = null;
 
 		try{
-			Class.forName(POSTGRES_DRIVER);
+			Class.forName(JDBC_CONNECTION);
 			connection = DriverManager.getConnection(JDBC_CONNECTION,USER,PASS);
 
 			statement = connection.createStatement();
@@ -33,29 +33,28 @@ public class Example5_1 {
 				System.out.print(column2 + ",");
 				System.out.println(column3);
 
+		}
+	}catch (ClassNotFoundException e) {
+		e.printStackTrace();
+
+	}catch (SQLException e) {
+		e.printStackTrace();
+
+	}finally {
+		try {
+			if (resultSet != null) {
+				resultSet.close();
+
 			}
-		} catch (ClassNotFoundException e) {
-			e.printStackTrace();
-
-		} catch (SQLException e) {
-			e.printStackTrace();
-
-		} finally {
-			try {
-				if (resultSet != null) {
-					resultSet.close();
-
-				}
-				if (statement != null) {
-					statement.close();
-				}
-				if (connection != null) {
-					connection.close();
-				}
-
-			}catch (SQLException e) {
-				e.printStackTrace();
+			if (statement != null) {
+				statement.close();
 			}
+			if (connection != null) {
+				connection.close();)
+			}
+
+		}catch (SQLException e) {
+			e.printStackTrace();
 		}
 
 	}
