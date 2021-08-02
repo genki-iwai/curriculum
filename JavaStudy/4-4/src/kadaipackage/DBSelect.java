@@ -46,7 +46,7 @@ public class DBSelect {
             //"jdbc:postgresql://【ホスト名】/【データベース名】", "【ユーザ名】", "【パスワード】");
             statement = connection.createStatement();
             // 問⑤ SHOHIN_IDが001と020のものを表示させるためのSQL文を記述しましょう。
-            String SQL = "SELECT shohin_id FROM tb_shohin WHERE shohin_id = 001 AND 020";
+            String SQL = "SELECT * FROM tb_shohin WHERE shohin_id IN('001','020')";
             resultSet = statement.executeQuery(SQL);
 
             while (resultSet.next()) {
