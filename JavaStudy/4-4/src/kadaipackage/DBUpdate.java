@@ -26,13 +26,13 @@ public class DBUpdate {
     private static final String POSTGRES_DRIVER = "org.postgresql.Driver";
     /** ・JDMC接続先情報 */
     // 問① データベースのホスト名・データベース名を定数にしなさい。
-    private static final String JDBC_CONNECTION =
+    private static final String JDBC_CONNECTION = "jdbc:postgresql://localhost:5432/lesson_db";
     /** ・ユーザー名 */
     // 問② データベースのユーザー名を定数にしなさい
-    private static final String USER =
+    private static final String USER = "postgres";
     /** ・パスワード */
     // 問③ データベースのパスワードを定数にしなさい。
-    private static final String PASS =
+    private static final String PASS = "postgres";
 
     public static void main(String[] args) {
 
@@ -43,15 +43,15 @@ public class DBUpdate {
         try {
             Class.forName(POSTGRES_DRIVER);
             // 問④ 問①〜③の定数を使ってデータベースと接続しなさい。
-            connection = DriverManager.getConnection(
-            "jdbc:postgresql://【ホスト名】/【データベース名】", "【ユーザ名】", "【パスワード】");
+            connection = DriverManager.getConnection(JDBC_CONNECTION,USER,PASS);
+            //"jdbc:postgresql://【ホスト名】/【データベース名】", "【ユーザ名】", "【パスワード】");
             statement = connection.createStatement();
 
             // 問⑤ SHOHIN_IDが020のSHOHIN_NAMEを「商品20」に変更するためのSQL文を記述しましょう。
-            String SQL = "ここにSQLを記述してください。";
+            String SQL = "UPDATE  tb_shohin SET shohin_name = '商品20' WHERE shohin_id = 020";
 
             // 問⑥ 上記のSQL文を実行するための文を記述しましょう。
-
+            statement.executeUpdate(SQL);
             //一覧表示
             String SQLselect = "SELECT * FROM TB_SHOHIN";
             resultSet = statement.executeQuery(SQLselect);
