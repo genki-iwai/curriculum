@@ -1,0 +1,42 @@
+package bean;
+
+//社員情報データ（モデル）
+
+public class EmployeeBean {
+	private String Id;
+	private String PassWord;
+	private String Name;
+	private String Comment;
+	private String Login_time;
+	public String getId() {
+		return Id;
+	}
+	public void setId(String id) {
+		Id = id;
+	}
+	public String getPassWord() {
+		return PassWord;
+	}
+	public void setPassWord(String passWord) {
+		PassWord = passWord;
+	}
+	public String getName() {
+		return Name;
+	}
+	public void setName(String name) {
+		Name = name;
+	}
+	public String getComment() {
+		return Comment;
+	}
+	public void setComment(String comment) {
+		Comment = comment;
+	}
+	public String getLogin_time() {
+		return Login_time;
+	}
+	public void setLogin_time(String login_time) {
+		Login_time = login_time;
+	}
+
+}
